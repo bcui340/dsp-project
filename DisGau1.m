@@ -1,8 +1,8 @@
 % Dicrete density fuction
 clear;
 clc;
-sigma = [5,7,10];
-Ts = 1;
+sigma = [5,7,10];% assign different sigma value 
+Ts = 1;% assign Ts value
 for j =1:1:length(sigma)
     tau = -40:1:40;
     for i = 1:1:length(tau)

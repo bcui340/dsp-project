@@ -1,3 +1,6 @@
+%   discrete truncated density function
+% parameter : sigma, Ts : uniformly spaced instants Ts, tau: random
+% variables
 function fd = DisGauTru(sigma,Ts,tau)
 numer = 0;
 denom = 0;

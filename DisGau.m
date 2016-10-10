@@ -1,3 +1,7 @@
+% Descrete density function 
+% parameter : sigma, Ts : uniformly spaced instants Ts, tau: random
+% variables
+
 function fd = DisGau(sigma,Ts,tau)
 fd = 0;
 for i = -40:1:40

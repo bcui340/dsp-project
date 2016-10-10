@@ -1,9 +1,10 @@
 % %   discrete truncated density function
-
+% parameter : sigma, Ts : uniformly spaced instants Ts, tau: random
+% variables
 clc;
 clear;
 sigma = [2,3,5];
-Ts = 1;
+Ts = 1;% assign Ts value,truncated interval
 tau = -10:1:10;
 for j = 1:1:length(sigma)
     for i = 1:1:length(tau)
